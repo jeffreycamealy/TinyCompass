@@ -25,6 +25,7 @@
 		00A8BD1B18D4010400E42FDE /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BD0A18D4010400E42FDE /* EXTScope.m */; };
 		00A8BD1C18D4010400E42FDE /* VTPG_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BD0E18D4010400E42FDE /* VTPG_Common.m */; };
 		00A8BD1F18D40C4200E42FDE /* TinyCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BD1E18D40C4200E42FDE /* TinyCompass.m */; };
+		00A8BD2218D4195E00E42FDE /* OSTaperedCylinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BD2118D4195E00E42FDE /* OSTaperedCylinder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +82,8 @@
 		00A8BD0E18D4010400E42FDE /* VTPG_Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPG_Common.m; sourceTree = "<group>"; };
 		00A8BD1D18D40C4200E42FDE /* TinyCompass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyCompass.h; sourceTree = "<group>"; };
 		00A8BD1E18D40C4200E42FDE /* TinyCompass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyCompass.m; sourceTree = "<group>"; };
+		00A8BD2018D4195E00E42FDE /* OSTaperedCylinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSTaperedCylinder.h; sourceTree = "<group>"; };
+		00A8BD2118D4195E00E42FDE /* OSTaperedCylinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSTaperedCylinder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +205,8 @@
 				00A8BCFD18D4010400E42FDE /* OSRectangle.m */,
 				00A8BCFE18D4010400E42FDE /* OSSphere.h */,
 				00A8BCFF18D4010400E42FDE /* OSSphere.m */,
+				00A8BD2018D4195E00E42FDE /* OSTaperedCylinder.h */,
+				00A8BD2118D4195E00E42FDE /* OSTaperedCylinder.m */,
 			);
 			path = Shapes;
 			sourceTree = "<group>";
@@ -318,6 +323,7 @@
 				00A8BD1818D4010400E42FDE /* OSSphere.m in Sources */,
 				00A8BD1318D4010400E42FDE /* OSCircle.m in Sources */,
 				00A8BD1B18D4010400E42FDE /* EXTScope.m in Sources */,
+				00A8BD2218D4195E00E42FDE /* OSTaperedCylinder.m in Sources */,
 				00A8BD0F18D4010400E42FDE /* OSCompositeObject.m in Sources */,
 				00A8BD1618D4010400E42FDE /* OSObject.m in Sources */,
 				00A8BCAB18D3FFE300E42FDE /* main.m in Sources */,
