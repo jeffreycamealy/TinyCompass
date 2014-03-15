@@ -32,8 +32,12 @@ const float armLength = totalCompassRadius/2.0;
 @implementation TinyCompass
 
 - (void)buildSubObjects {
+    OSObject *pinArm = [self pinArm];
+    [pinArm.transformations addObject:translate(0, 0, armThickness)];
+    [pinArm.transformations addObject:rotate(0, 0, M_PI_2/3)];
 
     
+    [self.subObjects addObject:pinArm];
     [self.subObjects addObject:[self pencilArm]];
 }
 
