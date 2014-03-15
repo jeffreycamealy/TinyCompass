@@ -10,6 +10,21 @@
 		00A8BCA818D3FFE300E42FDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A8BCA718D3FFE300E42FDE /* Foundation.framework */; };
 		00A8BCAB18D3FFE300E42FDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BCAA18D3FFE300E42FDE /* main.m */; };
 		00A8BCAF18D3FFE300E42FDE /* TinyCompass.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00A8BCAE18D3FFE300E42FDE /* TinyCompass.1 */; };
+		00A8BD0F18D4010400E42FDE /* OSCompositeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BCE818D4010400E42FDE /* OSCompositeObject.m */; };
+		00A8BD1018D4010400E42FDE /* OSRotationalExtrusion.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BCEB18D4010400E42FDE /* OSRotationalExtrusion.m */; };
+		00A8BD1118D4010400E42FDE /* ObjectiveSCAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BCED18D4010400E42FDE /* ObjectiveSCAD.m */; };
+		00A8BD1218D4010400E42FDE /* OSGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BCF118D4010400E42FDE /* OSGeometry.m */; };
+		00A8BD1318D4010400E42FDE /* OSCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BCF518D4010400E42FDE /* OSCircle.m */; };
+		00A8BD1418D4010400E42FDE /* OSCube.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BCF718D4010400E42FDE /* OSCube.m */; };
+		00A8BD1518D4010400E42FDE /* OSCylinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BCF918D4010400E42FDE /* OSCylinder.m */; };
+		00A8BD1618D4010400E42FDE /* OSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BCFB18D4010400E42FDE /* OSObject.m */; };
+		00A8BD1718D4010400E42FDE /* OSRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BCFD18D4010400E42FDE /* OSRectangle.m */; };
+		00A8BD1818D4010400E42FDE /* OSSphere.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BCFF18D4010400E42FDE /* OSSphere.m */; };
+		00A8BD1918D4010400E42FDE /* OSTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BD0218D4010400E42FDE /* OSTransformation.m */; };
+		00A8BD1A18D4010400E42FDE /* OSVectorTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BD0418D4010400E42FDE /* OSVectorTransformation.m */; };
+		00A8BD1B18D4010400E42FDE /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BD0A18D4010400E42FDE /* EXTScope.m */; };
+		00A8BD1C18D4010400E42FDE /* VTPG_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BD0E18D4010400E42FDE /* VTPG_Common.m */; };
+		00A8BD1F18D40C4200E42FDE /* TinyCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A8BD1E18D40C4200E42FDE /* TinyCompass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +46,41 @@
 		00A8BCAA18D3FFE300E42FDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00A8BCAD18D3FFE300E42FDE /* TinyCompass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TinyCompass-Prefix.pch"; sourceTree = "<group>"; };
 		00A8BCAE18D3FFE300E42FDE /* TinyCompass.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TinyCompass.1; sourceTree = "<group>"; };
+		00A8BCE718D4010400E42FDE /* OSCompositeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCompositeObject.h; sourceTree = "<group>"; };
+		00A8BCE818D4010400E42FDE /* OSCompositeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCompositeObject.m; sourceTree = "<group>"; };
+		00A8BCEA18D4010400E42FDE /* OSRotationalExtrusion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSRotationalExtrusion.h; sourceTree = "<group>"; };
+		00A8BCEB18D4010400E42FDE /* OSRotationalExtrusion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSRotationalExtrusion.m; sourceTree = "<group>"; };
+		00A8BCEC18D4010400E42FDE /* ObjectiveSCAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveSCAD.h; sourceTree = "<group>"; };
+		00A8BCED18D4010400E42FDE /* ObjectiveSCAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveSCAD.m; sourceTree = "<group>"; };
+		00A8BCEE18D4010400E42FDE /* ObjectiveSCADConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveSCADConstants.h; sourceTree = "<group>"; };
+		00A8BCEF18D4010400E42FDE /* ObjectiveSCADHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveSCADHeaders.h; sourceTree = "<group>"; };
+		00A8BCF018D4010400E42FDE /* OSGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSGeometry.h; sourceTree = "<group>"; };
+		00A8BCF118D4010400E42FDE /* OSGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSGeometry.m; sourceTree = "<group>"; };
+		00A8BCF318D4010400E42FDE /* OS2DShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OS2DShape.h; sourceTree = "<group>"; };
+		00A8BCF418D4010400E42FDE /* OSCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCircle.h; sourceTree = "<group>"; };
+		00A8BCF518D4010400E42FDE /* OSCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCircle.m; sourceTree = "<group>"; };
+		00A8BCF618D4010400E42FDE /* OSCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCube.h; sourceTree = "<group>"; };
+		00A8BCF718D4010400E42FDE /* OSCube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCube.m; sourceTree = "<group>"; };
+		00A8BCF818D4010400E42FDE /* OSCylinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCylinder.h; sourceTree = "<group>"; };
+		00A8BCF918D4010400E42FDE /* OSCylinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCylinder.m; sourceTree = "<group>"; };
+		00A8BCFA18D4010400E42FDE /* OSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSObject.h; sourceTree = "<group>"; };
+		00A8BCFB18D4010400E42FDE /* OSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSObject.m; sourceTree = "<group>"; };
+		00A8BCFC18D4010400E42FDE /* OSRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSRectangle.h; sourceTree = "<group>"; };
+		00A8BCFD18D4010400E42FDE /* OSRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSRectangle.m; sourceTree = "<group>"; };
+		00A8BCFE18D4010400E42FDE /* OSSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSSphere.h; sourceTree = "<group>"; };
+		00A8BCFF18D4010400E42FDE /* OSSphere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSSphere.m; sourceTree = "<group>"; };
+		00A8BD0118D4010400E42FDE /* OSTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSTransformation.h; sourceTree = "<group>"; };
+		00A8BD0218D4010400E42FDE /* OSTransformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSTransformation.m; sourceTree = "<group>"; };
+		00A8BD0318D4010400E42FDE /* OSVectorTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSVectorTransformation.h; sourceTree = "<group>"; };
+		00A8BD0418D4010400E42FDE /* OSVectorTransformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSVectorTransformation.m; sourceTree = "<group>"; };
+		00A8BD0718D4010400E42FDE /* ConvenienceMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvenienceMacros.h; sourceTree = "<group>"; };
+		00A8BD0918D4010400E42FDE /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		00A8BD0A18D4010400E42FDE /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		00A8BD0B18D4010400E42FDE /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		00A8BD0D18D4010400E42FDE /* VTPG_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPG_Common.h; sourceTree = "<group>"; };
+		00A8BD0E18D4010400E42FDE /* VTPG_Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPG_Common.m; sourceTree = "<group>"; };
+		00A8BD1D18D40C4200E42FDE /* TinyCompass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyCompass.h; sourceTree = "<group>"; };
+		00A8BD1E18D40C4200E42FDE /* TinyCompass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyCompass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +123,7 @@
 		00A8BCA918D3FFE300E42FDE /* TinyCompass */ = {
 			isa = PBXGroup;
 			children = (
+				00A8BCB518D400B100E42FDE /* Submodules */,
 				00A8BCAA18D3FFE300E42FDE /* main.m */,
 				00A8BCAE18D3FFE300E42FDE /* TinyCompass.1 */,
 				00A8BCAC18D3FFE300E42FDE /* Supporting Files */,
@@ -86,6 +137,121 @@
 				00A8BCAD18D3FFE300E42FDE /* TinyCompass-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00A8BCB518D400B100E42FDE /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				00A8BD1D18D40C4200E42FDE /* TinyCompass.h */,
+				00A8BD1E18D40C4200E42FDE /* TinyCompass.m */,
+				00A8BCE518D4010400E42FDE /* Objective-SCAD */,
+			);
+			name = Submodules;
+			sourceTree = "<group>";
+		};
+		00A8BCE518D4010400E42FDE /* Objective-SCAD */ = {
+			isa = PBXGroup;
+			children = (
+				00A8BCE618D4010400E42FDE /* CompositeObjects */,
+				00A8BCE918D4010400E42FDE /* Extrusions */,
+				00A8BCEC18D4010400E42FDE /* ObjectiveSCAD.h */,
+				00A8BCED18D4010400E42FDE /* ObjectiveSCAD.m */,
+				00A8BCEE18D4010400E42FDE /* ObjectiveSCADConstants.h */,
+				00A8BCEF18D4010400E42FDE /* ObjectiveSCADHeaders.h */,
+				00A8BCF018D4010400E42FDE /* OSGeometry.h */,
+				00A8BCF118D4010400E42FDE /* OSGeometry.m */,
+				00A8BCF218D4010400E42FDE /* Shapes */,
+				00A8BD0018D4010400E42FDE /* Transformations */,
+				00A8BD0518D4010400E42FDE /* Utilities */,
+			);
+			name = "Objective-SCAD";
+			path = "Submodules/Objective-SCAD/Objective-SCAD/Objective-SCAD";
+			sourceTree = SOURCE_ROOT;
+		};
+		00A8BCE618D4010400E42FDE /* CompositeObjects */ = {
+			isa = PBXGroup;
+			children = (
+				00A8BCE718D4010400E42FDE /* OSCompositeObject.h */,
+				00A8BCE818D4010400E42FDE /* OSCompositeObject.m */,
+			);
+			path = CompositeObjects;
+			sourceTree = "<group>";
+		};
+		00A8BCE918D4010400E42FDE /* Extrusions */ = {
+			isa = PBXGroup;
+			children = (
+				00A8BCEA18D4010400E42FDE /* OSRotationalExtrusion.h */,
+				00A8BCEB18D4010400E42FDE /* OSRotationalExtrusion.m */,
+			);
+			path = Extrusions;
+			sourceTree = "<group>";
+		};
+		00A8BCF218D4010400E42FDE /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				00A8BCF318D4010400E42FDE /* OS2DShape.h */,
+				00A8BCF418D4010400E42FDE /* OSCircle.h */,
+				00A8BCF518D4010400E42FDE /* OSCircle.m */,
+				00A8BCF618D4010400E42FDE /* OSCube.h */,
+				00A8BCF718D4010400E42FDE /* OSCube.m */,
+				00A8BCF818D4010400E42FDE /* OSCylinder.h */,
+				00A8BCF918D4010400E42FDE /* OSCylinder.m */,
+				00A8BCFA18D4010400E42FDE /* OSObject.h */,
+				00A8BCFB18D4010400E42FDE /* OSObject.m */,
+				00A8BCFC18D4010400E42FDE /* OSRectangle.h */,
+				00A8BCFD18D4010400E42FDE /* OSRectangle.m */,
+				00A8BCFE18D4010400E42FDE /* OSSphere.h */,
+				00A8BCFF18D4010400E42FDE /* OSSphere.m */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		00A8BD0018D4010400E42FDE /* Transformations */ = {
+			isa = PBXGroup;
+			children = (
+				00A8BD0118D4010400E42FDE /* OSTransformation.h */,
+				00A8BD0218D4010400E42FDE /* OSTransformation.m */,
+				00A8BD0318D4010400E42FDE /* OSVectorTransformation.h */,
+				00A8BD0418D4010400E42FDE /* OSVectorTransformation.m */,
+			);
+			path = Transformations;
+			sourceTree = "<group>";
+		};
+		00A8BD0518D4010400E42FDE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				00A8BD0618D4010400E42FDE /* ConvenienceMacros */,
+				00A8BD0818D4010400E42FDE /* EXTScope */,
+				00A8BD0C18D4010400E42FDE /* VTPG_Common */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		00A8BD0618D4010400E42FDE /* ConvenienceMacros */ = {
+			isa = PBXGroup;
+			children = (
+				00A8BD0718D4010400E42FDE /* ConvenienceMacros.h */,
+			);
+			path = ConvenienceMacros;
+			sourceTree = "<group>";
+		};
+		00A8BD0818D4010400E42FDE /* EXTScope */ = {
+			isa = PBXGroup;
+			children = (
+				00A8BD0918D4010400E42FDE /* EXTScope.h */,
+				00A8BD0A18D4010400E42FDE /* EXTScope.m */,
+				00A8BD0B18D4010400E42FDE /* metamacros.h */,
+			);
+			path = EXTScope;
+			sourceTree = "<group>";
+		};
+		00A8BD0C18D4010400E42FDE /* VTPG_Common */ = {
+			isa = PBXGroup;
+			children = (
+				00A8BD0D18D4010400E42FDE /* VTPG_Common.h */,
+				00A8BD0E18D4010400E42FDE /* VTPG_Common.m */,
+			);
+			path = VTPG_Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +305,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A8BD1218D4010400E42FDE /* OSGeometry.m in Sources */,
+				00A8BD1418D4010400E42FDE /* OSCube.m in Sources */,
+				00A8BD1F18D40C4200E42FDE /* TinyCompass.m in Sources */,
+				00A8BD1C18D4010400E42FDE /* VTPG_Common.m in Sources */,
+				00A8BD1A18D4010400E42FDE /* OSVectorTransformation.m in Sources */,
+				00A8BD1118D4010400E42FDE /* ObjectiveSCAD.m in Sources */,
+				00A8BD1518D4010400E42FDE /* OSCylinder.m in Sources */,
+				00A8BD1018D4010400E42FDE /* OSRotationalExtrusion.m in Sources */,
+				00A8BD1718D4010400E42FDE /* OSRectangle.m in Sources */,
+				00A8BD1918D4010400E42FDE /* OSTransformation.m in Sources */,
+				00A8BD1818D4010400E42FDE /* OSSphere.m in Sources */,
+				00A8BD1318D4010400E42FDE /* OSCircle.m in Sources */,
+				00A8BD1B18D4010400E42FDE /* EXTScope.m in Sources */,
+				00A8BD0F18D4010400E42FDE /* OSCompositeObject.m in Sources */,
+				00A8BD1618D4010400E42FDE /* OSObject.m in Sources */,
 				00A8BCAB18D3FFE300E42FDE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
