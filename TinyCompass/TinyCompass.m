@@ -11,15 +11,19 @@
 
 #pragma mark - Measurements
 
-// Measurements
-const float pinCapRadius = 4.5;
-const float pinShaftRadius = 0.375;
+/// Measurements
+// Whole Object
 const float armThickness = 3.5;
 const float totalCompassRadius = 55.0;
 const float armCenterRadius = 10.0;
+// Pin
+const float pinCapRadius = 4.5;
+const float pinShaftRadius = 0.375; // With Extrusion Multiplier at 0.9, this hole is totally closed
+// Screw
 const float screwShaftRadius = 1.75;
 const float screwHeadRadius = 3.75;
 const float screwHeadHeight = 3.0;
+// Pencil
 const float pencilArmTipRadius = 3.0;
 const float pencilTipRadius = 0.5;
 const float pencilAngle = degToRad(65.0);
@@ -33,8 +37,8 @@ const float armLength = totalCompassRadius/2.0;
 
 - (void)buildSubObjects {
     OSObject *pinArm = [self pinArm];
-    [pinArm.transformations addObject:translate(0, 0, armThickness)];
-    [pinArm.transformations addObject:rotate(0, 0, M_PI_2/3)];
+    [pinArm.transformations addObject:rotate(0, 0, M_PI)];
+    [pinArm.transformations addObject:translate(armLength, -armCenterRadius*2, 0)];
 
     
     [self.subObjects addObject:pinArm];
